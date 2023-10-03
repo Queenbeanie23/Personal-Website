@@ -1,0 +1,266 @@
+
+body{
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+footer{
+   text-align: center;
+   font-size: 20px;
+   position: fixed;
+   background-color: black;
+ padding: 20px;
+   color: plum;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+a:hover{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color:blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#Banner {
+    padding: 60px;
+    text-align: center;
+    background: black;
+    color: plum;
+    font-size: 30px;
+    border-color: plum;
+    border-style: dotted;
+    border-width: 5px;
+    margin-bottom: 5px;
+  
+}
+p{
+    color: white;
+}
+img{
+   border-radius: 50%;
+}
+h2{
+   
+    text-align: center;
+    font-size: 40px;
+    color: plum;
+     
+}
+h4 {
+    color: plum;
+}  
+
+h3 {
+    color: plum;
+} 
+li{
+    color: white;
+}
+nav {
+    background-color: #000000;
+    
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+   
+}
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px; 
+    text-decoration: none;
+    border: 2px solid #fff; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+nav a:hover {
+    background-color: #fff; 
+    color: #333; 
+}
+
+nav a:active {
+    background-color: plum;
+    color: #fff;
+}
+
+.Skills-list{
+    list-style:none;
+  
+}
+img{
+    width: 100%;
+}
+.project-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 100px;
+
+}
+.project-box{
+    flex:1;
+    max-width:300px;
+
+    padding:10px;
+    border:2px solid #fff;
+    background-color:white;
+    text-align:center;
+    margin-right: 60px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+.project-box a{
+    display:block;
+    margin-top:10px;
+    text-decoration:none;
+    color: purple;
+}
+.Skills-list li{
+    list-style:none;
+}
+.Contact{
+    float:left;
+    box-shadow: 0 4px 8px plum; 
+    text-align: center;
+    padding: 5px;
+    width: 25%;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: plum;
+}
+.Contact a{
+    text-decoration: none;
+}
+
+
+.Contact h2{
+    font-size:20px;
+    margin-top:0;
+
+}
+.Summary{
+    padding-right: 50px;
+    margin-bottom: 70px;
+}
+.Summary p{
+    font-size: 20px;
+}
+.Summary h2{
+    font-size:30px;
+    color: plum;
+   
+}
+ .ratings{
+    color: gold;
+    font-size: 25px;
+ }
+#seton-img{
+    width: 50%;
+    border-radius: 0;
+}
+#njit-img{
+    width: 40%;
+    border-radius: 0;
+
+}
+.edu{
+    padding-bottom: 350px;
+}
+.edu h2{
+    color: plum;
+    border-style: dotted;
+    padding: 10px;
+    border-width: 15px;
+}
+
+.Education{
+    box-shadow: 0 4px 8px 0 plum;
+    transition: 0.5s;
+    margin-left: 30px;
+    width: 40%;
+    padding: 5px;
+    margin-top: 10px;
+    border: solid;
+    float: left;
+
+
+}
+
+.Education:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.NJIT{
+    float: right;
+    box-shadow: 0 4px 8px 0 plum;
+    transition: 0.5s;
+    width: 38%;
+    padding: 5px;
+    border: solid;
+   margin-right: 30px;
+     
+}
+.NJIT:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.WorkExperience{
+    margin-top: 20px;
+    border: 1px solid plum;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: black;
+    text-align: left;
+    margin: 20px;
+    
+}
+.WorkExperience h3{
+    margin-top: 0;
+}.WorkExperience p{
+    font-size: 16px;
+    margin: 0;
+}
+.WorkExperience ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+    font-size: 16px;
+}
+
+#work{
+   text-align: center;
+   margin-top: 30px;
+   
+}
+.Skills-list{
+    margin: 30px;
+    
+}
+
